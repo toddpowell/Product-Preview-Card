@@ -2,6 +2,10 @@
     box-sizing: border-box 
   }
 
+.app-container {
+    /* width: 200px; */
+}
+
 .prc-wrapper {
     display: flex;
     flex-direction: row;
@@ -10,5 +14,11 @@
 @media screen and (max-width: 650px) {
     .prc-wrapper {
       flex-direction: column;
+      justify-content: center;
     }
   }
+
+.prc-left-panel, .prc-right-panel {
+    width: 500px;
+    background-color: rgb(233, 228, 228);
+}
