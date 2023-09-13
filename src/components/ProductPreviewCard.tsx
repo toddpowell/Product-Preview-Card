@@ -1,3 +1,5 @@
+import "./ProductPreviewCard.css";
+
 const ProductPreviewCard = () => {
   return (
     <>
@@ -13,7 +15,7 @@ const ProductPreviewCard = () => {
               srcSet="./src/assets/images/image-product-mobile.jpg"
             />
             <img
-              src="./src/assets/images/image-product-desktop.jpg"
+              src="./src/assets/images/image-product-mobile.jpg"
               alt="Flowers"
             />
           </picture>
